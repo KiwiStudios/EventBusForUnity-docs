@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkeventbusforunity=self.webpackChunkeventbusforunity||[]).push([[9933],{9151:e=>{e.exports=JSON.parse('{"metadata":{"permalink":"/EventBusForUnity-docs/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
