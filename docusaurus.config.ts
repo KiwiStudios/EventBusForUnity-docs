@@ -41,17 +41,33 @@ const config: Config = {
         theme: {
           customCss: "./src/css/custom.css",
         },
+        sitemap: {
+          changefreq: "weekly", // Defines the sitemap update frequency
+          priority: 0.5, // Default priority for all pages
+        },
       } satisfies Preset.Options,
     ],
   ],
 
   themeConfig: {
     image: "img/docusaurus-social-card.jpg",
+    metadata: [
+      {
+        name: "description",
+        content:
+          "EventBus for Unity - Simple and efficient event handling system for Unity developers.",
+      },
+      {
+        name: "keywords",
+        content:
+          "Unity, EventBus, Unity EventBus, Unity Programming, Unity Development",
+      },
+    ],
     navbar: {
       title: "EventBus for Unity",
       logo: {
         alt: "My Site Logo",
-        src: "img/logo.svg",
+        src: "img/favicon.ico",
       },
       items: [
         {
@@ -83,6 +99,57 @@ const config: Config = {
       additionalLanguages: ["csharp"],
     },
   } satisfies Preset.ThemeConfig,
+
+  headTags: [
+    {
+      tagName: "meta",
+      attributes: {
+        name: "description",
+        content:
+          "EventBus for Unity - A simple and efficient event handling system for Unity developers.",
+      },
+    },
+    {
+      tagName: "meta",
+      attributes: {
+        name: "keywords",
+        content:
+          "Unity, EventBus, Unity EventBus, Unity Programming, Unity Development",
+      },
+    },
+
+    {
+      tagName: "meta",
+      attributes: {
+        property: "og:title",
+        content: "EventBus for Unity - Simple and Efficient",
+      },
+    },
+    {
+      tagName: "meta",
+      attributes: {
+        property: "og:description",
+        content:
+          "EventBus for Unity - A simple and efficient event handling system for Unity developers.",
+      },
+    },
+    {
+      tagName: "meta",
+      attributes: {
+        property: "og:url",
+        content: "https://kiwistudios.github.io/EventBusForUnity-docs/",
+      },
+    },
+
+    // Robots meta tag for SEO crawling
+    {
+      tagName: "meta",
+      attributes: {
+        name: "robots",
+        content: "index,follow",
+      },
+    },
+  ],
 };
 
 export default config;
