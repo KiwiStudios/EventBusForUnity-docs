@@ -4,7 +4,9 @@ sidebar_position: 3
 
 # Static [Listener] methods
 
-Very straight forward, works out of the box.
+Very straight forward, works out of the box. 
+
+Does not need any form of registration or deregistration, as the Listener is just called directly and there is always only one Listener to call.
 
 ```csharp
 using Assembly_CSharp.EventBusForUnity; // Note: per assembly an EventBus is generated, so this might have a different prefix than 'Assembly_CSharp'

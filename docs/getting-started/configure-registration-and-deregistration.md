@@ -4,8 +4,10 @@ sidebar_position: 2
 
 # Customizing registration in MonoBehaviours
 
-This feature is specific for MonoBehaviours. See the below snippet for more info, pay attention in specific to the usage
-of `IEventReceiver<T1, T2>`.
+This feature is specific for MonoBehaviours. For an example in pure `C#` see [using eventbus outside of monobehaviours](./using-eventbus-outside-of-monobehaviours.md)
+
+See the below snippet for more info, pay attention in specific to the usage
+of `IEventReceiver<T1, T2>`. 
 
 ```csharp
 public class OnHelloWorldEvent

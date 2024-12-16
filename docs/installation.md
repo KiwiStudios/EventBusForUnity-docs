@@ -7,7 +7,7 @@ sidebar_position: 2
 It's relatively straight forward.
 
 1. Download the unity package from the asset store
-2. Open in Unity and import
+2. Open in Unity by double-clicking the `.unitypackage` files and import them in your Unity project
 3. You should see a welcome pop-up
 
 You should now be set up to use the library.

@@ -77,7 +77,7 @@ const config: Config = {
           label: "Documentation",
         },
         {
-          href: "https://todo_add_link_here.nl",
+          href: "https://discord.gg/dqN3csvysQ",
           label: "Discord",
           position: "right",
         },
@@ -97,6 +97,11 @@ const config: Config = {
       theme: prismThemes.oneDark,
       darkTheme: prismThemes.oneDark,
       additionalLanguages: ["csharp"],
+    },
+    colorMode: {
+      defaultMode: "dark",
+      disableSwitch: false,
+      respectPrefersColorScheme: false,
     },
   } satisfies Preset.ThemeConfig,
 
